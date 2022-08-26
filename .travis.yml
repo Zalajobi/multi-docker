@@ -3,7 +3,7 @@ service:
   - docker
 
 before_install:
-  - docker run -t zalajobi/react-test npm test -f ./client/Dockerfile.dev ./client
+  - docker build -t zalajobi/react-test npm test -f ./client/Dockerfile.dev ./client
 
 script:
   - docker run -e CI=true zalajobi/react-test npm test
