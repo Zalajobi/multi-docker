@@ -1,0 +1,5 @@
+PGUSERNAME: postgres
+PGPASSOWRD: postgres-password
+database_name: fibvalues
+AWS_ACCESS_KEY: 6/ARlYkfS/53z46F5jXfEWMlCyD2jSNdizU45v90
+AWS_SECRET_KEY: AKIAWL4KED2PWBCH575T
